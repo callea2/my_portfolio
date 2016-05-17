@@ -2,10 +2,10 @@
 
 
 ###Description:
-This weeks project is making my own portfolio
+This weeks project is making a website featuring my portfolio and hosting it to [GitHub Pages](https://pages.github.com/)
 
 ###Frameworks used:
-#####Site generator: [Middleman](https://middlemanapp.com/) :
+#####Site generator: [Middleman](https://middlemanapp.com/)
 `"Middleman is a static site generator using all the shortcuts and tools in modern web development."`
 
 #####Testing: [Rspec](http://rspec.info/)
