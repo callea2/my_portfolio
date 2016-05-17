@@ -7,12 +7,11 @@
 
     %title= current_page.data.title || "The Chosen One"
 
-    %link{:rel => "stylesheet", :href => "uikit.min.css"}
     %script{:src => "jquery.js"}
     %script{:src => "uikit.min.js"}
 
-    = stylesheet_link_tag :site
+    = stylesheet_link_tag :uikitalmostflatmin
     = javascript_include_tag :all
 
-  %body.page_classes
+  %body
     = yield
