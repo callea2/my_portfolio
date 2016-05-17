@@ -7,10 +7,12 @@
 
     %title= current_page.data.title || "The Chosen One"
 
-    %link{:href => "//fonts.googleapis.com/css?family=Lato:300,400", :rel => "stylesheet", :type => "text/css"}
+    %link{:rel => "stylesheet", :href => "uikit.min.css"}
+    %script{:src => "jquery.js"}
+    %script{:src => "uikit.min.js"}
 
     = stylesheet_link_tag :site
     = javascript_include_tag :all
 
-  %body{:class => "= page_classes"}
+  %body.page_classes
     = yield
