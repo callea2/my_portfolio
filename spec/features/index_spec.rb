@@ -24,4 +24,11 @@ describe 'index', type: :feature do
       expect(page).to have_css 'img[src*="logo.png"]'
     end
   end
+
+  it 'renders footer partial' do
+    expect(page).to have_selector 'footer'
+    within 'footer' do
+      expect(page).to have_content 'Copyright'
+    end
+  end
 end
