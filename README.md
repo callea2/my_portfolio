@@ -13,3 +13,11 @@ This weeks project is making a website featuring my portfolio and hosting it to 
 
 #####CSS: [Uikit](http://getuikit.com/)
 `"Uikit is a lightweight and modular front-end framework for developing fast and powerful web interfaces."`
+
+
+
+
+
+
+#####To do:
+- Find a way to set navbar as active
