@@ -13,8 +13,8 @@ describe 'index', type: :feature do
     end
   end
 
-  it 'displays Calle image' do
-    expect(page).to have_css 'img[src*="calle.jpg"]'
+  it 'displays hero image' do
+    expect(page).to have_css 'img[src*="hero.png"]'
   end
 
   it 'renders header partial' do
