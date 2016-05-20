@@ -5,10 +5,12 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     background: #fff;
-    color: #444
+    color: #444;
+    position: relative;
+    min-height: 100%;
 }
 body {
-    margin: 0
+    margin: 0 0 66px;
 }
 a {
     background: 0 0
@@ -13063,6 +13065,11 @@ a.uk-thumbnail:hover {
 }
 
 .tm-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -60px;
     background: #252323;
     font-family: 'Lato';
     font-size: 12px;
