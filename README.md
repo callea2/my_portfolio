@@ -21,6 +21,4 @@ This weeks project is making a website featuring my portfolio and hosting it to 
 
 #####To do:
 - Find a way to set navbar as active
-- Style header and footer
 - Add content to About Me and Portfolio
-- Replace stylesheet with page specific style and add basic css
