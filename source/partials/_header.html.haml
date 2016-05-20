@@ -1,12 +1,8 @@
 %header
   %nav#nav.utm-navbar.uk-navbar.uk-navbar-attached.uk-position-z-index.uk-nav-header
     .uk-flex.uk-flex-middle.uk-flex-center.uk-flex-space-between
-      %a.uk-navbar-brand.uk-hidden-small{:href => "index.html"}
-        %img.uk-margin.uk-margin-remove{:src => "images/logo.png", :width => 110, :height => 30}
+      = link_to image_tag("logo.png", class: 'uk-margin uk-margin-remove', style: 'width: 110px; height: auto;'), 'index.html', class: 'uk-navbar-brand uk-hidden-small'
       %ul.uk-navbar-nav.uk-hidden-small
-        %li
-          = link_to "Home", "index.html"
-        %li
-          = link_to "About Me", "aboutme.html"
-        %li
-          = link_to "Portfolio", "portfolio.html"
+        %li= link_to "Home", "/my_portfolio/index.html"
+        %li= link_to "About Me", "/my_portfolio/about_me.html"
+        %li= link_to "Portfolio", "/my_portfolio/portfolio.html"
