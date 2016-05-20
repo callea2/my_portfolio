@@ -1,20 +1,18 @@
 !!! 5
 %html
   %head
-    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}
-    %meta{:charset => "utf-8"}
-    %meta{:content => "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no", :name => "viewport"}
+    %meta{content: "IE=edge", "http-equiv" => "X-UA-Compatible"}
+    %meta{charset: "utf-8"}
+    %meta{content: "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no", :name => "viewport"}
 
     %title= current_page.data.title || "The Chosen One"
 
-    %link{:href => "uikit.css", :rel => "stylesheet", :type => "text/css"}
-    %script{:src => "jquery.js"}
-    %script{:src => "uikit.min.js"}
-    
     = stylesheet_link_tag :uikitalmostflat
-    = javascript_include_tag :all
 
   %body
     = partial "partials/header"
     = yield
     = partial "partials/footer"
+    = javascript_include_tag :jquery
+    = javascript_include_tag :"uikit.min"
+    = javascript_include_tag :all
