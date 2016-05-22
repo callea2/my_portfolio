@@ -41,6 +41,10 @@ end
 #   end
 # end
 
+activate :blog do |blog|
+  # set options on blog
+end 
+
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
