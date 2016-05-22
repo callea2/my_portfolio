@@ -13,10 +13,10 @@ describe 'about_me', type: :feature do
     end
   end
 
-  it 'displays text within p tag' do
-    expect(page).to have_selector 'p'
-    within 'p' do
-      expect(page).to have_content 'my name'
+  it 'displays text within paragraph' do
+    expect(page).to have_selector '.tm-paragraph'
+    within '.tm-paragraph' do
+      expect(page).to have_content 'My name'
     end
   end
 
