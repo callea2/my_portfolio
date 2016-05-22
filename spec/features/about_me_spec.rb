@@ -12,4 +12,15 @@ describe 'about_me', type: :feature do
       expect(page).to have_content 'About Me'
     end
   end
+
+  it 'displays text within p tag' do
+    expect(page).to have_selector 'p'
+    within 'p' do
+      expect(page).to have_content 'my name'
+    end
+  end
+
+  it 'displays profile picture' do
+    expect(page).to have_css 'img[src*="calle.jpg"]'
+  end
 end
