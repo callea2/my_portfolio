@@ -13072,9 +13072,9 @@ a.uk-thumbnail:hover {
 
 .tm-footer {
     position: absolute;
-    left: 0;
     bottom: 0;
     width: 100%;
+    padding: 5px;
     margin-bottom: -60px;
     background: #252323;
     font-family: 'Lato';
