@@ -26,8 +26,8 @@ describe 'index', type: :feature do
   end
 
   it 'renders footer partial' do
-    expect(page).to have_selector 'footer'
-    within 'footer' do
+    expect(page).to have_selector '.tm-footer'
+    within '.tm-footer' do
       expect(page).to have_content 'Copyright'
     end
   end

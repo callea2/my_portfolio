@@ -20,5 +20,7 @@ This weeks project is making a website featuring my portfolio and hosting it to 
 
 
 #####To do:
-- Find a way to set navbar as active
 - Add content to About Me and Portfolio
+- Find a way to set navbar as active
+- Setup Google Analytics using [THIS](https://github.com/danielbayerlein/middleman-google-analytics) gem
+- Add top-left-corner icon

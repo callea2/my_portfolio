@@ -7,9 +7,9 @@ describe 'portfolio', type: :feature do
   end
 
   it 'displays yml content' do
-    expect(page).to have_css 'ol'
-    within 'ol' do
-      expect(page).to have_content 'Anton Jonte Adam'
+    expect(page).to have_css '.projects'
+    within '.projects' do
+      expect(page).to have_content 'ATM'
     end
   end
 end

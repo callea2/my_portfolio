@@ -1,0 +1,14 @@
+- name: My First Website
+  description: Simple HTML5 site I've build during the PrepCourse
+
+- name: FizzBuzz
+  description: My first test driven Ruby project
+
+- name: ATM
+  description: Another ruby project where me and a partner collaborated to create an about_me
+
+- name: BMI
+  description: Working with Sinatra, I created a website for calculating ones BMI
+
+- name: SlowFood
+  description: WIP - Using Sinatra, I worked with a partner to create a working food ordering website
