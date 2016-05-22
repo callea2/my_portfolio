@@ -1,7 +1,6 @@
 ---
 title: First blog article
 date: 2016-05-22 17:08 CEST
-tags:
 ---
 
 # My first blog post!

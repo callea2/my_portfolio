@@ -9,7 +9,7 @@ describe 'blog', type: :feature do
   it 'displays article' do
     expect(page).to have_css '.articles'
     within '.articles' do
-      expect(page).to have_content 'My first blog post!'
+      expect(page).to have_content 'First blog article'
     end
   end
 end

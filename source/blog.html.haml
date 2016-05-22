@@ -1,0 +1,5 @@
+.articles.uk-text-center.uk-margin-top
+  %h1 All blog posts are listed below
+  - blog.articles.each do |article|
+    %a{href: article.url}
+      %li.uk-list= article.title
